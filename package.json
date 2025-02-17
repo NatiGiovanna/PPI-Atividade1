@@ -1,0 +1,30 @@
+{
+  "name": "ppi-atividade1",
+  "version": "1.0.0",
+  "description": "Venda de Pacote de Viagens",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NatiGiovanna/PPI-Atividade1.git"
+  },
+  "keywords": [
+    "Pacote",
+    "Viagens",
+    "Vendas"
+  ],
+  "author": "Natalia Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NatiGiovanna/PPI-Atividade1/issues"
+  },
+  "homepage": "https://github.com/NatiGiovanna/PPI-Atividade1#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "spress": "^0.1.2"
+  }
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacotes de Viagem</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Pacotes de Viagem</h1>
+        <div class="row">
+            <!-- Exemplo de Card de Pacote de Viagem -->
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Pacote 1</h5>
+                        <p class="card-text">Destino: Rio de Janeiro</p>
+                        <p class="card-text">Data de Partida: 20/12/2025</p>
+                        <p class="card-text">Preço: R$ 1.500,00</p>
+                        <a href="detalhes.html" class="btn btn-primary">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Repita os cards para outros pacotes -->
+        </div>
+    </div>
+    <script>
+        // Verificação de autenticação
+        if (!sessionStorage.getItem('authenticated')) {
+            window.location.href = 'login.html';
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
